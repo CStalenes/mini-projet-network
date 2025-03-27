@@ -14,10 +14,15 @@ Un conteneur Node.js qui s'y connecte via un réseau Docker.
 2️⃣ Créer le fichier docker-setup.sh :
 
   Ensuite pour simplifier la création des conteneur on va cree un script qui va cree et demarrer notre conteneur  par étape en mode bash : 
+  
     * Cree le réseau Docker personnalisé pour la communication inter-conteneurs
+    
     * Configurer l'utilisateur, mot de passe et la base de donnée mysql de notre conteneur
+    
     * Mappage des ports pour accès externe 
-    * Construire l'image de notre application node
+    
+    * Construire l'image de notre server et application node
+    
     * Demarrer le conteneur de l'application
   
 3️⃣ Sécurisation des fichiers sensibles:
@@ -27,7 +32,7 @@ Un conteneur Node.js qui s'y connecte via un réseau Docker.
 
 4️⃣ Création du template:
 
-  Pour avoir un visuel de notre application on a créer un dossier public pour créer notre todolist
+  Pour avoir un visuel de notre application on a créer un dossier public pour créer notre todolist en html.
 
 
 ✅ Vérification:
